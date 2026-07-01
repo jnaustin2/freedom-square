@@ -1,0 +1,176 @@
+Please add more visual appeal to the Freedom Square USA landing page without making it cluttered or flashy.
+
+The page should still feel serious, hopeful, patriotic, principled, and warm.
+
+## Main Visual Goals
+
+1. Help visitors quickly understand what is inside the community.
+2. Make the page feel less text-heavy.
+3. Add visual rhythm and stronger section identity.
+4. Make Apprentice membership feel valuable and tangible.
+5. Avoid making the design feel like a political campaign, outrage site, or old historical brochure.
+
+## Add These Visual Improvements
+
+### 1. Add Icons to the “What’s Inside Freedom Square” Cards
+
+For each of the six cards, add a simple line icon or tasteful symbolic graphic.
+
+Use consistent icon style, same size, and same visual treatment.
+
+Suggested icons:
+
+* Monday Live Teaching: lectern, video screen, or calendar
+* Speaker Forums: microphone or conversation bubbles
+* Liberty Library: book or bookshelf
+* The Commons: people/community icon
+* Civic Action Resources: compass, checklist, courthouse, or map pin
+* Event Replays & Weekly Prompts: play button, clock, or journal
+
+Use navy icons with small muted gold or muted red accents.
+
+Do not use cartoonish icons.
+
+### 2. Add a Platform Preview Mockup
+
+Add a visual mockup showing what the community includes.
+
+This can be a stylized laptop/tablet/browser card, not an actual screenshot.
+
+Place it near the “What’s Inside Freedom Square” section.
+
+The mockup should include small labeled cards or sidebar items such as:
+
+* Welcome Center
+* Freedom Pavilion: Live Events
+* Liberty Library
+* The Commons
+* Town Crier
+* Civic Action
+
+Inside the mockup, show sample content cards:
+
+* Monday Freedom Forum
+* Speaker Forum
+* Founding Document Study
+* Civic Action Step of the Week
+* Member Discussion Prompt
+
+The goal is to help visitors see that this is a living community, not just a content library.
+
+### 3. Create a “Freedom Requires” Five-Pillar Graphic
+
+In the “Freedom Requires More Than Concern” section, make the five ideas more visually memorable.
+
+Use either a five-pillar layout or a circular framework.
+
+Center or headline:
+
+“Freedom Requires”
+
+Five elements:
+
+* Knowledge
+* Character
+* Responsibility
+* Local Influence
+* Good Company
+
+Each element should have a small icon and short label.
+
+Keep the design elegant and readable.
+
+### 4. Add a Community Rhythm Timeline
+
+Add a small visual timeline or rhythm section that shows how members stay engaged.
+
+Suggested title:
+
+“How the Community Rhythm Works”
+
+Use four rhythm blocks:
+
+* Every Week: Monday live teaching, discussion prompts, member conversation
+* Twice Monthly: Speaker Forums with guest voices
+* Anytime: Liberty Library, replays, and resources
+* Ongoing: Civic action steps and local application
+
+This can appear below the “What’s Inside Freedom Square” cards or near the Apprentice offer.
+
+### 5. Improve the Teaching Section Visual
+
+Add a more polished image area for Shane Krauser.
+
+If no actual image is available, use a tasteful placeholder card that says:
+
+“Shane Krauser”
+“Constitutional Teacher • Trial Attorney • Constitutional Law Professor”
+
+Keep it classy and understated.
+
+Do not make the page feel celebrity-driven.
+
+### 6. Add Visual Pull Quotes
+
+Create 2–3 tasteful pull-quote or callout blocks for key lines.
+
+Suggested lines:
+
+“If you are tired of the noise, yet still willing to do what freedom requires, you are not alone.”
+
+“Freedom requires more than concern.”
+
+“Freedom Square is not just a content library. It is a place to keep learning, stay connected, and take the next constructive step.”
+
+Use these sparingly.
+
+### 7. Add Subtle Section Dividers
+
+Add simple visual dividers between major sections.
+
+Options:
+
+* thin gold rule
+* small star icon
+* subtle navy/gold line
+* very faint civic pattern
+
+Keep it restrained.
+
+## Image and Graphic Style
+
+Use visuals that feel:
+
+* warm
+* dignified
+* hopeful
+* civic
+* patriotic
+* human
+* steady
+
+Avoid visuals that feel:
+
+* angry
+* partisan
+* militaristic
+* apocalyptic
+* campaign-like
+* corporate stock-photo generic
+* cartoonish
+
+## Color Use
+
+Use deep navy and warm white as the foundation.
+
+Use muted red for CTA buttons.
+
+Use antique gold as a restrained accent.
+
+Avoid using parchment texture everywhere.
+
+## Final Check
+
+After the update, the page should feel more visual and engaging, but not longer or more cluttered.
+
+The visuals should help explain the value of Freedom Square USA, especially the What’s Inside section.

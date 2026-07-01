@@ -1,0 +1,187 @@
+Please refine the current Freedom Square USA landing page based on the following design and conversion improvements.
+
+Keep the overall structure and content, but make the site shorter, more modern, more readable, and less parchment-heavy.
+
+## Main Goals
+
+1. Make the page feel more hopeful, current, and practical while still patriotic and principled.
+2. Reduce the overall page length by about 25–35%.
+3. Improve color balance so it feels less like an old parchment document and more like a warm, serious civic community.
+4. Improve web readability by reducing oversized section headings and shortening long sections.
+5. Keep Apprentice as the only public membership offer.
+
+## Color Updates
+
+Use this revised palette:
+
+* Deep Navy: `#101C35`
+* Patriot Blue: `#1E3A5F`
+* Warm White: `#FAF7F0`
+* Soft Cream: `#F2E8D6`
+* Muted Red: `#A53A2A`
+* Deep Red Hover: `#872E23`
+* Antique Gold: `#B8862F`
+* Charcoal Text: `#253244`
+* Soft Border: `#DDD2BF`
+
+Use warm white as the main background. Use parchment/cream only in selected sections or cards. Use gold sparingly as an accent. Use muted red for primary CTA buttons. Use deep navy for contrast sections.
+
+## Typography Updates
+
+Keep the serif heading font, but reduce large section headings by 20–30%.
+
+Hero H1 can stay large and dramatic.
+
+Section headings should be smaller, easier to scan, and less overwhelming.
+
+Avoid very long title-case headings when possible.
+
+## Section Structure Changes
+
+Shorten the page by combining sections.
+
+Use this tighter section order:
+
+1. Header
+2. Hero
+3. Problem / After the Event Ends
+4. Freedom Requires More Than Concern
+5. What Apprentice Members Receive
+6. Learn From Trusted Constitutional Teachers
+7. Is Freedom Square for You?
+8. A Serious Community Requires a Serious Culture
+9. Become an Apprentice Member
+10. FAQ
+11. Final CTA
+12. Footer
+
+Merge the current Problem Section and After Event Section into one section.
+
+Merge the Better Way Section into the Freedom Requires section.
+
+Merge the Apprentice Path section into the Apprentice Membership Offer section.
+
+## Revised Problem Section
+
+Replace the long heading with:
+
+“ You Care About Your Country. But What Comes Next?”
+
+Use shorter copy:
+
+“National arguments feel endless. Social media rewards outrage. Serious conversations are often reduced to slogans, soundbites, and suspicion.
+
+And even after an inspiring seminar, webinar, Constitution class, or civic event, the momentum can fade quickly.
+
+Freedom Square USA gives that inspiration a year-round home — a place to keep learning, ask questions, build relationships, and take constructive next steps.”
+
+Include the question cards:
+
+* Where do I begin?
+* Whom can I trust?
+* What can I do that will actually make a meaningful difference?
+
+## Freedom Requires Section
+
+Make this a deep navy visual centerpiece.
+
+Heading:
+
+“Freedom Requires More Than Concern”
+
+Include five cards or short emphasis blocks:
+
+* Knowledge
+* Character
+* Responsibility
+* Local Influence
+* Good Company
+
+Then include:
+
+“Freedom Square USA helps citizens strengthen the principles, relationships, and habits needed to preserve freedom in real life — in families, churches, schools, neighborhoods, civic groups, businesses, and local communities.
+
+This is not about passive consumption. It is about becoming the kind of citizen freedom requires.”
+
+## Benefits Section
+
+Keep the Learn / Connect / Act cards, but make them more balanced and concise.
+
+Learn:
+“Weekly teaching with Shane Krauser, Freedom Forums, Liberty Library resources, event replays, and practical study tools.”
+
+Connect:
+“Thoughtful member discussions, weekly prompts, introductions, questions, and relationships with citizens who care about liberty and civic responsibility.”
+
+Act:
+“Simple civic action steps, local engagement guidance, discussion resources, and encouragement to apply founding principles where you live.”
+
+Keep a CTA button after this section.
+
+## Apprentice Offer Section
+
+Combine the Apprentice Path and Offer sections.
+
+Use this heading:
+
+“Become an Apprentice Member”
+
+Subheading:
+
+“Learn the principles of liberty and strengthen your civic confidence.”
+
+Include a short paragraph:
+
+“Apprentice membership is for citizens who want to understand America’s founding documents more deeply, build principled relationships, and take constructive steps where they live.”
+
+Include the price card with `$49/month`.
+
+Include the CTA button.
+
+Do not mention future membership tiers.
+
+## Visual Rhythm
+
+Add more contrast between sections.
+
+Use deep navy for:
+
+* Freedom Requires section
+* Final CTA section
+* optionally the Culture section
+
+Avoid using cream/parchment for every section.
+
+Use warm white as the main background.
+
+Use left-aligned text in some middle sections so the page does not feel too formal or ceremonial.
+
+## Header
+
+Keep the header clean.
+
+Make the CTA button slightly warmer using muted red instead of navy, or use navy only if red feels too strong.
+
+## Mobile
+
+Make sure mobile feels shorter and easier to scan.
+
+Use:
+
+* stacked cards
+* full-width CTA buttons
+* FAQ accordion
+* shorter section headings
+* sticky bottom CTA after scrolling past the hero
+
+## Preserve This Core Line
+
+Keep this line prominent:
+
+“This is a community for citizens who are tired of the noise, yet still willing to do what freedom requires.”
+
+Use it in the hero or final CTA, but do not overuse it.
+
+## Final Goal
+
+The finished page should feel like a serious, hopeful, principled civic community — not a political campaign, not an outrage site, and not an old historical brochure.

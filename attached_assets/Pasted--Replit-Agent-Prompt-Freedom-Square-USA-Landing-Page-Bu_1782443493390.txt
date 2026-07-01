@@ -1,0 +1,953 @@
+# Replit Agent Prompt — Freedom Square USA Landing Page
+
+Build a polished, responsive one-page landing page for **Freedom Square USA** using **React + Vite + Tailwind CSS**.
+
+The landing page is for a membership community called **Freedom Square USA**. The page should persuade visitors to become an **Apprentice Member**. Do not include multiple membership tiers. Apprentice is the only public offer right now but other membership options should be easily added after.
+
+## Project Goal
+
+Create a serious, hopeful, patriotic, conversion-focused landing page for Americans who still believe freedom is worth learning, living, and preserving.
+
+The page should feel:
+
+* hopeful
+* steady
+* principled
+* useful
+* patriotic
+* warm
+* serious without being heavy
+* community-oriented
+
+The page should not feel:
+
+* angry
+* partisan
+* campaign-like
+* corporate
+* flashy
+* apocalyptic
+* cluttered
+* like a generic membership template
+
+## Tech Stack
+
+Use:
+
+* React
+* Vite
+* Tailwind CSS
+* JavaScript, not TypeScript
+
+Do not add unnecessary libraries. Keep the site lightweight and fast.
+
+## Deployment Assumption
+
+This project will be built in Replit, pushed to GitHub, and deployed on Cloudflare Pages.
+
+The page should work as a static site.
+
+## File Structure
+
+Organize the project like this:
+
+```text
+public/
+  images/
+    hero-placeholder.webp
+    shane-placeholder.webp
+    og-image.webp
+
+src/
+  components/
+    Header.jsx
+    Hero.jsx
+    ProblemSection.jsx
+    AfterEventSection.jsx
+    FreedomRequiresSection.jsx
+    BetterWaySection.jsx
+    ApprenticePathSection.jsx
+    BenefitsSection.jsx
+    TeachingSection.jsx
+    AudienceSection.jsx
+    CultureSection.jsx
+    OfferSection.jsx
+    FirstWeekSection.jsx
+    FAQSection.jsx
+    FinalCTA.jsx
+    Footer.jsx
+  data/
+    siteContent.js
+  App.jsx
+  main.jsx
+  index.css
+```
+
+Use placeholder image references for now. I will replace images later.
+
+## Important Constants
+
+Create a file:
+
+```text
+src/data/siteContent.js
+```
+
+Add a constant:
+
+```js
+export const JOIN_URL = "https://freedomsquareusa.com/sign_up?from=https%3A%2F%2Ffreedomsquareusa.com%2Fusers%2Fonboarding%2Fchoose_plan%3Fplan_id%3D2276666%26prefer_signup%3Dtrue&plan_id=2276666";
+```
+
+Use `JOIN_URL` for every “Become an Apprentice Member” button.
+
+Also store repeatable content in arrays inside `siteContent.js`, including:
+
+* benefit cards
+* audience checklist
+* first week steps
+* FAQ items
+
+## Brand Direction
+
+Use this tagline:
+
+**Mastering Freedom in Good Company**
+
+Use this core identity statement prominently:
+
+**This is a community for citizens who are tired of the noise, yet still willing to do what freedom requires.**
+
+## Color Palette
+
+Use a warm patriotic palette.
+
+Suggested colors:
+
+```js
+navy: "#14213D"
+deepNavy: "#0B1324"
+ivory: "#F8F3E7"
+parchment: "#EFE4CF"
+mutedRed: "#A33A2B"
+gold: "#C79A3B"
+slate: "#4B5563"
+white: "#FFFFFF"
+```
+
+Use deep navy and ivory as the foundation.
+
+Use muted red and gold as accents.
+
+Avoid making red the dominant color.
+
+## Typography
+
+Use Google Fonts or font imports if easy:
+
+Headings: **Libre Baskerville**
+Body: **Inter**
+
+If Google Fonts setup is inconvenient, use fallback fonts that approximate this style.
+
+Typography should feel classic, readable, and dignified.
+
+## Design Style
+
+Use:
+
+* generous whitespace
+* warm ivory/parchment backgrounds
+* deep navy contrast sections
+* subtle borders and shadows
+* simple cards
+* tasteful patriotic details
+* calm visual rhythm
+
+Avoid:
+
+* heavy gradients
+* overly modern neon effects
+* aggressive red/black design
+* campaign-style graphics
+* distracting animations
+
+## Required Page Sections
+
+Build these sections in this order:
+
+1. Header
+2. Hero
+3. Problem Section
+4. After Event Section
+5. Freedom Requires Section
+6. Better Way Section
+7. Apprentice Path Section
+8. Benefits Section
+9. Teaching Section
+10. Audience Section
+11. Culture Section
+12. Offer Section
+13. First Week Section
+14. FAQ Section
+15. Final CTA
+16. Footer
+
+---
+
+# Section Details and Copy
+
+## 1. Header
+
+Desktop layout:
+
+Left:
+
+* Freedom Square USA wordmark
+* small tagline: Mastering Freedom in Good Company
+
+Right:
+
+* What’s Inside
+* Apprentice
+* FAQ
+* Become an Apprentice Member button
+
+Mobile layout:
+
+Left:
+
+* Freedom Square USA
+
+Right:
+
+* Join button
+
+Optional hamburger menu is fine, but keep it simple.
+
+Header should be sticky on scroll with a subtle shadow or border.
+
+## 2. Hero
+
+Layout:
+
+Desktop:
+
+* two columns
+* left: text and buttons
+* right: visual card or image placeholder
+
+Mobile:
+
+* single column
+* text first
+* image below or hidden if needed
+
+Copy:
+
+Headline:
+
+```text
+For Americans Who Still Believe Freedom Is Worth Learning, Living, and Preserving
+```
+
+Subheadline:
+
+```text
+Freedom Square USA is a year-round membership community where you can study America’s founding principles, connect with thoughtful citizens, and take constructive steps to strengthen liberty where you live.
+```
+
+Supporting line:
+
+```text
+If you are tired of the noise, yet still willing to do what freedom requires, you are not alone.
+```
+
+Buttons:
+
+Primary:
+
+```text
+Become an Apprentice Member
+```
+
+Secondary:
+
+```text
+See What’s Inside
+```
+
+Hero visual direction:
+
+Use a warm placeholder panel with subtle parchment texture, flag-inspired accents, and civic/town-square feel. Do not include aggressive political imagery.
+
+## 3. Problem Section
+
+Heading:
+
+```text
+You Care About Your Country. But It Can Be Hard to Know What You Can Do That Will Make a Meaningful Difference.
+```
+
+Copy:
+
+```text
+You care about freedom.
+
+You care about your family, your community, and the future of the country.
+
+But the modern political environment can feel exhausting.
+
+National arguments feel endless. Social media rewards outrage. Serious conversations are often reduced to slogans, soundbites, and suspicion.
+```
+
+Question block:
+
+```text
+Where do I begin?
+Whom can I trust?
+What can I do that will actually make a meaningful difference?
+```
+
+More copy:
+
+```text
+Even after an inspiring seminar, webinar, Constitution class, or civic event, the momentum can fade quickly.
+
+People leave encouraged, but often go home without a clear place to keep learning, ask questions, build relationships, or take constructive next steps.
+
+Freedom Square USA was created for citizens who want a better way.
+```
+
+Make the final sentence visually emphasized.
+
+## 4. After Event Section
+
+Heading:
+
+```text
+A Place to Keep Learning, Connecting, and Taking the Next Step
+```
+
+Copy:
+
+```text
+Freedom Square gives that inspiration a year-round home.
+```
+
+Bullet list:
+
+```text
+Keep learning
+Ask questions
+Build relationships
+Access helpful resources
+Take practical steps in your own community
+```
+
+Closing copy:
+
+```text
+You do not have to carry your concern alone.
+
+You do not have to let frustration become the final word.
+
+And you do not have to become another angry voice in the political noise to care deeply about your country.
+
+Freedom Square is a place to deepen your understanding, build trusted relationships, and become more useful in the cause of liberty.
+```
+
+## 5. Freedom Requires Section
+
+This should be a visual centerpiece.
+
+Use deep navy background with ivory text and gold accents.
+
+Heading:
+
+```text
+Freedom Requires More Than Concern
+```
+
+Copy:
+
+```text
+Concern is a beginning. But freedom requires more.
+```
+
+Display five cards or emphasized words:
+
+```text
+Knowledge
+Character
+Responsibility
+Local Influence
+Good Company
+```
+
+Closing copy:
+
+```text
+Freedom Square USA helps citizens strengthen the principles, relationships, and habits needed to preserve freedom in real life — in families, churches, schools, neighborhoods, civic groups, businesses, and local communities.
+
+This is not about passive consumption.
+
+It is about becoming the kind of citizen freedom requires.
+```
+
+## 6. Better Way Section
+
+Heading:
+
+```text
+Not More Noise. A Place to Learn, Build, and Serve.
+```
+
+Copy:
+
+```text
+Freedom Square USA is not another place for partisan shouting, shallow commentary, or political venting.
+
+It is a principled membership community built around constitutional clarity, constructive relationships, and practical local influence.
+```
+
+Three emphasis cards:
+
+```text
+Constitutional Clarity
+Constructive Relationships
+Practical Local Influence
+```
+
+Closing copy:
+
+```text
+Inside Freedom Square, members study America’s founding documents, learn from trusted constitutional teachers, discuss serious ideas with civility, and encourage one another to apply founding principles wisely where they live.
+
+The goal is to understand more clearly, speak more confidently, and take constructive steps with wisdom and purpose.
+```
+
+## 7. Apprentice Path Section
+
+Heading:
+
+```text
+The Apprentice Path: Learn the Principles. Build Confidence. Take Your Next Step.
+```
+
+Copy:
+
+```text
+Apprentice membership is the foundation of Freedom Square USA.
+
+It is for citizens who want to understand America’s founding documents more deeply, strengthen their civic confidence, find principled community, and take simple constructive steps where they live.
+
+Apprentice members are citizens in formation — learning the principles, building relationships, and preparing to defend liberty with greater clarity, courage, and wisdom.
+
+The Apprentice path helps you move from isolated concern to constitutional clarity, constructive relationships, and practical local influence.
+```
+
+Add a CTA button:
+
+```text
+Become an Apprentice Member
+```
+
+Optional visual:
+
+Three-step horizontal path on desktop, stacked on mobile:
+
+```text
+Learn the Principles
+Build Confidence
+Take Your Next Step
+```
+
+## 8. Benefits Section
+
+Heading:
+
+```text
+What Apprentice Members Receive
+```
+
+Use three cards.
+
+Card 1:
+
+Title:
+
+```text
+Learn
+```
+
+Copy:
+
+```text
+Join regular live events with Shane Krauser focused on America’s founding principles, the Constitution, the Declaration of Independence, and the responsibilities of self-government.
+```
+
+Bullets:
+
+```text
+Freedom Forums with guest speakers
+Liberty Library resources
+Event replays when available
+A growing toolkit of useful resources
+```
+
+Card 2:
+
+Title:
+
+```text
+Connect
+```
+
+Copy:
+
+```text
+Freedom Square is not only a library of content. It is a community.
+```
+
+Bullets:
+
+```text
+Introduce yourself in The Commons
+Discuss meaningful topics
+Respond to prompts throughout the week
+Ask questions
+Build relationships with others who care about liberty and civic responsibility
+```
+
+Card 3:
+
+Title:
+
+```text
+Act
+```
+
+Copy:
+
+```text
+Freedom Square helps members move from concern to constructive participation.
+```
+
+Bullets:
+
+```text
+Simple civic action steps
+Local engagement guidance
+Resources for discussing founding principles
+Encouragement to apply what you are learning where you live
+```
+
+Closing line:
+
+```text
+The goal is not to overwhelm you. The goal is to help you take the next constructive step.
+```
+
+Add CTA button after cards.
+
+## 9. Teaching Section
+
+Heading:
+
+```text
+Learn From Trusted Constitutional Teachers
+```
+
+Copy:
+
+```text
+Freedom Square USA gives members access to serious, engaging constitutional education led by Shane Krauser and other thoughtful voices.
+
+Shane brings credibility, energy, and experience to this work.
+
+His background as a trial attorney, constitutional law professor, and nationally recognized teacher of America’s founding documents helps make the learning inside Freedom Square both substantive and practical.
+
+But Freedom Square is not built around personality alone.
+
+It is built around principles: freedom, self-government, civic responsibility, and lawful local action.
+
+Members learn from trusted teachers so they can better understand, explain, and apply the principles of liberty where they live.
+```
+
+Include placeholder image area for Shane Krauser.
+
+## 10. Audience Section
+
+Heading:
+
+```text
+Is Freedom Square for You?
+```
+
+Intro:
+
+```text
+Freedom Square USA is for community-minded Americans who are still hopeful enough to learn, serve, and act.
+```
+
+Checklist:
+
+```text
+Concerned about the future of freedom in America and throughout the world
+Interested in America’s founding documents and constitutional principles
+Tired of outrage-driven politics and shallow commentary
+Looking for a principled community you can trust
+Willing to invest in your own civic understanding and influence
+Involved in, or drawn to, freedom-focused events, Constitution education, civic groups, churches, schools, or local community efforts
+A parent, grandparent, volunteer, organizer, teacher, speaker, or citizen who wants to help preserve freedom more effectively
+```
+
+Closing:
+
+```text
+You do not need to be an expert.
+
+You simply need to care about freedom, be willing to learn, and want to strengthen your ability to serve your family, community, and country well.
+```
+
+## 11. Culture Section
+
+Heading:
+
+```text
+A Serious Community Requires a Serious Culture
+```
+
+Copy:
+
+```text
+Freedom Square USA is not for partisan fighting, personal attacks, contempt, conspiracy dumping, or outrage without responsibility.
+
+Members are welcome to arrive with questions, concerns, frustrations, and a desire for clearer direction.
+
+But the culture of Freedom Square invites people toward learning, maturity, courage, humility, and constructive action.
+```
+
+Highlighted covenant:
+
+```text
+We take freedom seriously.
+We take people seriously.
+We are here to learn, build, and serve.
+```
+
+## 12. Offer Section
+
+This should look like a strong membership card.
+
+Heading:
+
+```text
+Become an Apprentice Member
+```
+
+Subheading:
+
+```text
+Learn the principles of liberty and strengthen your civic confidence.
+```
+
+Copy:
+
+```text
+Apprentice membership gives you a place to study America’s founding principles, connect with thoughtful citizens, and apply what you are learning in practical ways.
+```
+
+Benefits list:
+
+```text
+Monday live events with Shane Krauser
+Twice-monthly Freedom Forums with guest speakers
+Liberty Library resources
+Member discussions in The Commons
+Prompts and conversation starters throughout the week
+Event replays when available
+Simple civic action steps
+Practical local engagement guidance
+Encouragement from a principled community
+```
+
+Price placeholder:
+
+```text
+$49/month
+```
+
+Add a note:
+
+```text
+After joining, you will be welcomed into the community and guided through your first steps.
+```
+
+Button:
+
+```text
+Become an Apprentice Member
+```
+
+## 13. First Week Section
+
+Heading:
+
+```text
+You Will Know Where to Begin
+```
+
+Copy:
+
+```text
+You will not be left to wander through a new platform wondering what to do next.
+
+Your first steps inside Freedom Square will help you get oriented, meet the community, RSVP for a live event, and begin learning right away.
+```
+
+Steps:
+
+```text
+Watch the Welcome Video
+Read the Welcome Center posts
+Complete your profile
+Introduce yourself in The Commons
+RSVP for the next live event
+Download the app
+```
+
+Use numbered cards or a vertical timeline.
+
+## 14. FAQ Section
+
+Heading:
+
+```text
+Questions You May Be Asking
+```
+
+Build FAQ as an accessible accordion.
+
+Use these FAQ items:
+
+Question:
+
+```text
+What is Freedom Square USA?
+```
+
+Answer:
+
+```text
+Freedom Square USA is a year-round membership community for Americans who want to study America’s founding principles, connect with thoughtful citizens, and take constructive steps to strengthen liberty where they live.
+```
+
+Question:
+
+```text
+Is this a political organization?
+```
+
+Answer:
+
+```text
+Freedom Square is not built around party loyalty, partisan fighting, or political entertainment. It is built around America’s founding principles, civic responsibility, constitutional education, civil discussion, and lawful local action.
+```
+
+Question:
+
+```text
+Do I need to be an expert on the Constitution?
+```
+
+Answer:
+
+```text
+No. Apprentice membership is for people who want to learn, ask questions, deepen their understanding, and strengthen their civic confidence. You do not need to arrive as an expert. You simply need to be willing to learn.
+```
+
+Question:
+
+```text
+What is included in Apprentice membership?
+```
+
+Answer:
+
+```text
+Apprentice members receive access to live teaching, member discussions, Liberty Library resources, Freedom Forums, event replays when available, prompts and conversation starters, and practical civic confidence resources.
+```
+
+Question:
+
+```text
+Are live events recorded?
+```
+
+Answer:
+
+```text
+Most events will be available for replay for members who cannot attend live.
+```
+
+Question:
+
+```text
+Who teaches inside Freedom Square?
+```
+
+Answer:
+
+```text
+Shane Krauser leads regular teaching inside Freedom Square. Members will also hear from guest speakers and other thoughtful voices over time.
+```
+
+Question:
+
+```text
+What if I am tired of political arguments?
+```
+
+Answer:
+
+```text
+That is one reason Freedom Square exists. The community is designed for serious discussion, civil disagreement, learning, responsibility, and constructive action — not personal attacks, contempt, or outrage for its own sake.
+```
+
+Question:
+
+```text
+Can I cancel my membership?
+```
+
+Answer:
+
+```text
+Yes. You can cancel at any time.
+```
+
+## 15. Final CTA
+
+Use a deep navy background.
+
+Heading:
+
+```text
+Freedom Is Preserved by Citizens Who Are Willing to Learn and Act
+```
+
+Copy:
+
+```text
+If you still believe America’s founding principles matter, you do not have to carry that responsibility alone.
+
+Freedom Square USA gives you a place to learn, connect, and become more useful in the cause of liberty.
+
+This is a community for citizens who are tired of the noise, yet still willing to do what freedom requires.
+
+We believe that America’s best days are ahead, and you can be part of making that future a reality.
+```
+
+Button:
+
+```text
+Become an Apprentice Member
+```
+
+## 16. Footer
+
+Include:
+
+```text
+Freedom Square USA
+Mastering Freedom in Good Company
+© 2026 Freedom Square USA. All rights reserved.
+```
+
+Optional links:
+
+```text
+Contact
+Privacy Policy
+Terms
+```
+
+## Mobile Behavior
+
+Make the page mobile-first.
+
+On mobile:
+
+* use single-column layouts;
+* stack all cards;
+* use full-width CTA buttons;
+* keep body text readable;
+* collapse FAQ items;
+* keep the header simple;
+* show a sticky bottom CTA after scrolling past the hero.
+
+Sticky mobile CTA text:
+
+```text
+Become an Apprentice Member
+```
+
+## Accessibility Requirements
+
+Make sure:
+
+* headings are semantic and in correct order;
+* buttons and links have clear focus states;
+* FAQ accordion is keyboard accessible;
+* text contrast is strong;
+* all images have alt text;
+* tap targets are at least 44px high;
+* the site works well without animation.
+
+## SEO Metadata
+
+Page title:
+
+```text
+Freedom Square USA | Mastering Freedom in Good Company
+```
+
+Meta description:
+
+```text
+Freedom Square USA is a year-round membership community where Americans study founding principles, connect with thoughtful citizens, and take constructive steps to strengthen liberty where they live.
+```
+
+Open Graph title:
+
+```text
+Freedom Square USA
+```
+
+Open Graph description:
+
+```text
+For Americans who still believe freedom is worth learning, living, and preserving.
+```
+
+## Important Implementation Notes
+
+Use placeholder images for now.
+
+Do not invent extra sections.
+
+Do not add future membership tiers.
+
+Do not mention Freedom Advocate or Founder’s Circle.
+
+Do not make the page feel partisan, angry, apocalyptic, or campaign-like.
+
+Use repeated CTA buttons throughout the page, but keep the tone warm and invitational.
+
+Prioritize clean code and easy editing.
+
+Make sure all CTA buttons use the single `JOIN_URL` constant from `src/data/siteContent.js`.
+
+At the end, provide a brief explanation of how to replace the placeholder Mighty Networks URL and placeholder images.

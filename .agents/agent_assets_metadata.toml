@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "uJUEQVweFyLFGQzfAs1XE"
+uri = "file://artifacts/freedom-square/public/images/hero-civic.png"
+type = "image"
+title = "Warm civic town square scene"

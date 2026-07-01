@@ -1,0 +1,54 @@
+Please revise the “What Apprentice Members Receive” section.
+
+Rename the section:
+
+“What’s Inside Freedom Square”
+
+This section is where visitors land when they click the hero button “See What’s Inside,” so it needs to clearly explain what members actually find inside the community.
+
+Replace the current Learn / Connect / Act cards with four clearer value cards:
+
+1. Live Teaching
+2. The Liberty Library
+3. The Commons
+4. Civic Action
+
+Use this section copy:
+
+“Freedom Square is more than a library of videos. It is a living membership community with a steady rhythm of teaching, discussion, resources, and practical next steps.
+
+As an Apprentice member, you will have a place to keep learning, ask questions, build relationships, and apply America’s founding principles where you live.”
+
+Card copy:
+
+Live Teaching:
+“Join regular live teaching with Shane Krauser focused on America’s founding principles, the Constitution, the Declaration of Independence, and the responsibilities of self-government.”
+
+The Liberty Library:
+“Access recorded courses, founding document studies, reading resources, practical guides, and tools you can return to whenever you want to study more deeply.”
+
+The Commons:
+“Participate in thoughtful member discussions, respond to prompts, ask questions, share reflections, and connect with citizens who care about liberty and civic responsibility.”
+
+Civic Action:
+“Receive simple next steps, local engagement guidance, and resources that help you move from concern to constructive participation in your family, church, school, town, organization, or community.”
+
+After the cards, keep the platform preview screenshot/mockup.
+
+Below the platform preview, add this closing line:
+
+“Freedom Square gives your concern for liberty a place to grow into understanding, relationships, and wise action.”
+
+Then keep the CTA button:
+
+“Become an Apprentice Member”
+
+Design direction:
+
+* Use a 2x2 card grid on desktop.
+* Stack cards on mobile.
+* Keep the platform preview below the cards.
+* Make the section feel like a clear, engaging tour of the community.
+* Avoid making this section redundant with the pricing/offer section.
+* The offer section should remain the place where people see price and join.
+* This section should be the place where people understand the experience.
