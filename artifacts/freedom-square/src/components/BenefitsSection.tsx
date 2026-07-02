@@ -9,21 +9,25 @@ const cards = [
     Icon: Video,
     title: "Live Teaching",
     copy: "Join regular live teaching with Shane Krauser focused on America's founding principles, the Constitution, the Declaration of Independence, and the responsibilities of self-government.",
+    accent: "#1E3A5F",
   },
   {
     Icon: BookOpen,
     title: "The Liberty Library",
     copy: "Access recorded courses, founding document studies, reading resources, practical guides, and tools you can return to whenever you want to study more deeply.",
+    accent: "#A53A2A",
   },
   {
     Icon: Users,
     title: "The Commons",
     copy: "Participate in thoughtful member discussions, respond to prompts, ask questions, share reflections, and connect with citizens who care about liberty and civic responsibility.",
+    accent: "#A53A2A",
   },
   {
     Icon: Compass,
     title: "Civic Action",
     copy: "Receive simple next steps, local engagement guidance, and resources that help you move from concern to constructive participation in your family, church, school, town, organization, or community.",
+    accent: "#1E3A5F",
   },
 ];
 
@@ -47,7 +51,7 @@ export function BenefitsSection() {
 
         {/* 2×2 card grid */}
         <div className="grid sm:grid-cols-2 gap-5 mb-14">
-          {cards.map(({ Icon, title, copy }, i) => (
+          {cards.map(({ Icon, title, copy, accent }, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 20 }}
@@ -55,10 +59,14 @@ export function BenefitsSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="bg-white border border-[#DDD2BF] p-7 shadow-sm flex flex-col"
+              style={{ borderTop: `4px solid ${accent}` }}
             >
               <div className="flex items-center gap-3 mb-4 pb-4 border-b border-parchment">
-                <div className="w-9 h-9 bg-navy/5 border border-navy/10 flex items-center justify-center shrink-0">
-                  <Icon className="w-4 h-4 text-navy" strokeWidth={1.5} />
+                <div
+                  className="w-9 h-9 flex items-center justify-center shrink-0"
+                  style={{ backgroundColor: `${accent}18`, border: `1px solid ${accent}30` }}
+                >
+                  <Icon className="w-4 h-4" strokeWidth={1.5} style={{ color: accent }} />
                 </div>
                 <h3 className="font-serif text-lg font-bold text-navy">{title}</h3>
               </div>
