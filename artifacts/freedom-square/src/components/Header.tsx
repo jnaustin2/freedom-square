@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { siteData, JOIN_URL } from "@/data/siteContent";
+import { siteData, JOIN_URL, LOGIN_URL } from "@/data/siteContent";
 import { Button } from "@/components/ui/button";
 
 export function Header() {
@@ -44,6 +44,13 @@ export function Header() {
               </a>
             ))}
           </nav>
+
+          <a
+            href={LOGIN_URL}
+            className="hidden md:inline text-sm font-medium text-deepNavy hover:text-mutedRed transition-colors"
+          >
+            Log In
+          </a>
 
           <Button asChild className="bg-mutedRed hover:bg-[#872E23] text-white rounded-none px-6 shadow-sm">
             <a href={JOIN_URL} className="font-semibold text-sm">
