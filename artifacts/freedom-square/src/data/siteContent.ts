@@ -1,4 +1,5 @@
-export const JOIN_URL = "https://freedomsquareusa.com/sign_up?from=https%3A%2F%2Ffreedomsquareusa.com%2Fusers%2Fonboarding%2Fchoose_plan%3Fplan_id%3D2276666%26prefer_signup%3Dtrue&plan_id=2276666";
+export const JOIN_URL = "https://members.freedomsquareusa.com/sign_up";
+export const LOGIN_URL = "https://members.freedomsquareusa.com/sign_in";
 
 export const siteData = {
   header: {
