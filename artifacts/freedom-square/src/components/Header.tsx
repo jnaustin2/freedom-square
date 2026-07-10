@@ -59,7 +59,7 @@ export function Header() {
 
             <Button asChild className="bg-mutedRed hover:bg-[#872E23] text-white rounded-none px-6 shadow-sm">
               <a href={JOIN_URL} className="font-semibold text-sm">
-                Become an Apprentice Member
+                Start My 2-Week Free Trial
               </a>
             </Button>
           </div>
@@ -98,7 +98,7 @@ export function Header() {
               <div className="pt-3">
                 <Button asChild className="w-full bg-mutedRed hover:bg-[#872E23] text-white rounded-none shadow-sm">
                   <a href={JOIN_URL} className="font-semibold text-sm">
-                    Become an Apprentice Member
+                    Start My 2-Week Free Trial
                   </a>
                 </Button>
               </div>
