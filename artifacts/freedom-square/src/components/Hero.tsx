@@ -56,11 +56,12 @@ export function Hero() {
           >
             <div className="aspect-[4/3] shadow-xl border border-[#DDD2BF] overflow-hidden">
               <iframe
-                src="https://player.vimeo.com/video/1208659389?background=1&autoplay=1&loop=1&muted=1&byline=0&title=0&portrait=0"
+                src="https://player.vimeo.com/video/1208659389?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&byline=0&title=0&portrait=0&controls=0"
                 className="w-full h-full object-cover object-center pointer-events-none"
                 style={{ border: 0 }}
-                allow="autoplay; fullscreen; picture-in-picture"
-                title="Freedom Square USA intro video"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                title="Introducing Freedom Square USA"
               />
             </div>
             <div className="absolute -bottom-4 -left-4 w-20 h-20 border-b-2 border-l-2 border-gold opacity-50 pointer-events-none"></div>
