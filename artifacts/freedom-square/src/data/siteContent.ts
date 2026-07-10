@@ -66,6 +66,10 @@ export const siteData = {
       answer: "Apprentice members receive access to live teaching, member discussions, Liberty Library resources, Freedom Forums, event replays when available, prompts and conversation starters, and practical civic confidence resources."
     },
     {
+      question: "How does the 2-week free trial work?",
+      answer: "Your Apprentice membership begins with a 2-week free trial. During the trial, you can explore the community, attend available live events, access member resources, and get a feel for the Freedom Square experience.\n\nAfter the trial ends, your membership continues at $49/month unless you cancel before the trial period ends. You can cancel at any time."
+    },
+    {
       question: "Are live events recorded?",
       answer: "Most events will be available for replay for members who cannot attend live."
     },
