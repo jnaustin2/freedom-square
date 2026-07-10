@@ -23,7 +23,7 @@ export function FAQSection() {
                 <AccordionTrigger className="text-left font-serif text-lg text-navy hover:text-mutedRed py-4">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-slate text-base leading-relaxed pb-4">
+                <AccordionContent className="text-slate text-base leading-relaxed pb-4 whitespace-pre-line">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
