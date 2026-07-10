@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { JOIN_URL } from "@/data/siteContent";
 import { Button } from "@/components/ui/button";
-import heroVideo from "@assets/hero-intro.mp4";
 
 export function Hero() {
   return (
@@ -56,13 +55,12 @@ export function Hero() {
             className="relative"
           >
             <div className="aspect-[4/3] shadow-xl border border-[#DDD2BF] overflow-hidden">
-              <video
-                src={heroVideo}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover object-center"
+              <iframe
+                src="https://player.vimeo.com/video/1208659389?background=1&autoplay=1&loop=1&muted=1&byline=0&title=0&portrait=0"
+                className="w-full h-full object-cover object-center pointer-events-none"
+                style={{ border: 0 }}
+                allow="autoplay; fullscreen; picture-in-picture"
+                title="Freedom Square USA intro video"
               />
             </div>
             <div className="absolute -bottom-4 -left-4 w-20 h-20 border-b-2 border-l-2 border-gold opacity-50 pointer-events-none"></div>
