@@ -40,15 +40,19 @@ export function TeachingSection() {
             className="order-1 md:order-2 space-y-6"
           >
             <h2 className="text-3xl md:text-4xl font-serif text-deepNavy leading-tight">
-              Learn From Trusted Constitutional Teachers
+              Serious constitutional education. Engaging teaching. Practical application.
             </h2>
             
             <div className="space-y-4 text-lg text-slate">
               <p>
-                Freedom Square USA gives members access to serious, engaging constitutional education led by Shane Krauser and other thoughtful voices. Shane brings credibility, energy, and experience to this work. His background as a trial attorney, constitutional law professor, and nationally recognized teacher of America's founding documents helps make the learning inside Freedom Square both substantive and practical.
+                Shane Krauser leads regular teaching inside Freedom Square USA. As a trial attorney, constitutional law professor, and nationally recognized teacher of America's founding documents, Shane brings decades of experience helping citizens understand the principles of liberty and apply them to real questions and challenges. His teaching is substantive, energetic, approachable, and practical.
               </p>
               <p>
-                But Freedom Square is not built around personality alone. It is built around principles: freedom, self-government, civic responsibility, and lawful local action. Members learn from trusted teachers so they can better understand, explain, and apply the principles of liberty where they live.
+                Inside Freedom Square, members have the opportunity to keep learning with Shane throughout the year rather than encountering his teaching only at an occasional seminar or event. Members also hear from guest speakers and other thoughtful voices who bring valuable experience and perspective to questions of freedom, self-government, civic responsibility, constitutional understanding, leadership, and constructive local action.
+              </p>
+              <p className="font-serif italic text-navy text-base md:text-lg pt-2 border-t border-parchment">
+                The purpose of learning is not merely to become better informed.{" "}
+                <span className="font-semibold not-italic text-mutedRed">It is to become better prepared.</span>
               </p>
             </div>
           </motion.div>
