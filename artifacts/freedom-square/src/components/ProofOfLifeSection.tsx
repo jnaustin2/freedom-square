@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Video, Mic, BookMarked, MessagesSquare } from "lucide-react";
-import communityScreenshot from "@assets/community-screenshot.png";
+import theCommonsScreenshot from "@assets/the-commons.png";
 
 const cards = [
   {
@@ -18,8 +18,8 @@ const cards = [
   {
     Icon: BookMarked,
     label: "Monthly Focus",
-    title: "The Declaration of Independence",
-    copy: "This month, members are studying the ideas, history, and continuing responsibilities of the Declaration together.",
+    title: "The United States Constitution",
+    copy: "This month, members are studying the structure, history, and continuing responsibilities of the Constitution together.",
   },
   {
     Icon: MessagesSquare,
@@ -78,7 +78,7 @@ export function ProofOfLifeSection() {
             </div>
           </div>
           <img
-            src={communityScreenshot}
+            src={theCommonsScreenshot}
             alt="A live look inside the Freedom Square USA community"
             className="w-full object-cover object-top block"
           />
