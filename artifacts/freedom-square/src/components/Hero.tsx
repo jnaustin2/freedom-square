@@ -22,16 +22,16 @@ export function Hero() {
             className="flex flex-col gap-6"
           >
             <div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-deepNavy leading-tight mb-3">
+              <span className="text-mutedRed text-sm font-semibold uppercase tracking-[0.2em] mb-3 block">
                 For Americans Who Still Believe
-              </h1>
-              <p className="text-2xl md:text-3xl font-serif italic text-gold leading-snug">
+              </span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-deepNavy leading-tight">
                 Freedom is worth learning, living, and preserving.
-              </p>
+              </h1>
             </div>
 
             <p className="text-lg md:text-xl text-slate leading-relaxed">
-              Freedom Square USA is a year-round membership community where citizens study America's founding principles, connect with thoughtful people, and take constructive steps to strengthen liberty where they live.
+              Freedom Square USA is a year-round membership community where citizens study America's founding principles, learn from trusted teachers, build meaningful relationships, and become better prepared to strengthen liberty where they live.
             </p>
 
             <p className="text-base md:text-lg text-navy border-l-2 border-gold pl-4 py-1">
@@ -40,12 +40,15 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 mt-2">
               <Button asChild size="lg" className="bg-mutedRed hover:bg-[#872E23] text-white rounded-none px-8 h-14 text-base font-semibold shadow-md">
-                <a href={JOIN_URL}>Become an Apprentice Member</a>
+                <a href={JOIN_URL}>Start My 2-Week Free Trial</a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-navy text-navy hover:bg-parchment rounded-none h-14 text-base">
                 <a href="#whats-inside">See What's Inside</a>
               </Button>
             </div>
+            <p className="text-sm text-slate/70 -mt-1">
+              Free for 2 weeks. Then $49/month. Cancel anytime.
+            </p>
           </motion.div>
 
           <motion.div
