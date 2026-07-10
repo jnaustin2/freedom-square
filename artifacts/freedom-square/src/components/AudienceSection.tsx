@@ -8,10 +8,10 @@ export function AudienceSection() {
       <div className="container mx-auto px-4 md:px-6 max-w-4xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif text-deepNavy mb-6">
-            Is Freedom Square for You?
+            Looking for a better kind of civic community?
           </h2>
           <p className="text-xl text-navy font-medium max-w-2xl mx-auto">
-            Freedom Square USA is for community-minded Americans who are still hopeful enough to learn, serve, and act.
+            Freedom Square USA is for Americans who care deeply about freedom and are still hopeful enough to learn, serve, and act.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export function AudienceSection() {
 
         <div className="text-center">
           <p className="text-xl font-serif italic text-navy">
-            You do not need to be an expert. You simply need to care about freedom, be willing to learn, and want to strengthen your ability to serve your family, community, and country well.
+            You do not need to be an expert. You do not need to have all the answers. Bring your questions, your experience, your concerns, and your willingness to learn.
           </p>
         </div>
       </div>
