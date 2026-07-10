@@ -4,15 +4,12 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle, ArrowRight } from "lucide-react";
 
 const benefits = [
-  "Weekly live events with Shane Krauser",
-  "Twice-monthly Freedom Forums with guest speakers",
-  "Liberty Library resources",
-  "Member discussions in The Commons",
-  "Prompts and conversation starters throughout the week",
-  "Event replays when available",
-  "Simple civic action steps",
-  "Practical local engagement guidance",
-  "Encouragement from a principled community"
+  "Live teaching",
+  "Speaker Forums",
+  "Liberty Library",
+  "Member discussions",
+  "Event replays",
+  "Practical civic resources"
 ];
 
 const steps = [
@@ -87,12 +84,21 @@ export function OfferSection() {
               Learn the principles of liberty and strengthen your civic confidence.
             </p>
             <p className="text-ivory/80 max-w-xl mx-auto">
-              Apprentice membership is for citizens who want to understand America's founding documents more deeply, build principled relationships, and take constructive steps where they live.
+              Join Freedom Square USA and get full access to the Apprentice membership experience.
             </p>
           </div>
 
           <div className="bg-ivory px-8 py-10 md:px-12">
-            <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3 mb-10">
+            <div className="text-center mb-8">
+              <p className="text-xl md:text-2xl font-serif font-bold text-navy mb-3">
+                Start with a 2-week free trial.
+              </p>
+              <p className="text-slate max-w-2xl mx-auto">
+                Explore the live teaching, Speaker Forums, Liberty Library, member discussions, event replays, and practical civic resources before your paid membership begins.
+              </p>
+            </div>
+
+            <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3 mb-10 max-w-lg mx-auto">
               {benefits.map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <CheckCircle className="w-4 h-4 text-mutedRed shrink-0 mt-0.5" />
@@ -102,14 +108,14 @@ export function OfferSection() {
             </ul>
 
             <div className="text-center space-y-5 border-t border-[#DDD2BF] pt-8">
-              <div className="text-5xl font-serif font-bold text-navy">
-                $49<span className="text-xl text-slate font-sans font-normal">/month</span>
-              </div>
+              <p className="text-lg font-semibold text-navy">
+                $49/month after your free trial
+              </p>
               <Button asChild size="lg" className="w-full sm:w-auto bg-mutedRed hover:bg-[#872E23] text-white rounded-none px-12 h-14 text-lg font-semibold shadow-md">
-                <a href={JOIN_URL}>Become an Apprentice Member</a>
+                <a href={JOIN_URL}>Start Your 2-Week Free Trial</a>
               </Button>
               <p className="text-sm text-slate italic">
-                After joining, you will be welcomed into the community and guided through your first steps.
+                Cancel anytime.
               </p>
             </div>
           </div>
