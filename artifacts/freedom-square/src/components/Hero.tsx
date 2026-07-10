@@ -56,8 +56,8 @@ export function Hero() {
           >
             <div className="aspect-[4/3] shadow-xl border border-[#DDD2BF] overflow-hidden">
               <iframe
-                src="https://player.vimeo.com/video/1208659389?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&byline=0&title=0&portrait=0&controls=0"
-                className="w-full h-full object-cover object-center pointer-events-none"
+                src="https://player.vimeo.com/video/1208659389?badge=0&autopause=0&player_id=0&app_id=58479"
+                className="w-full h-full object-cover object-center"
                 style={{ border: 0 }}
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
