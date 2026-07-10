@@ -18,22 +18,22 @@ export function ProblemSection() {
           className="mb-10"
         >
           <h2 className="text-2xl md:text-3xl font-serif text-deepNavy leading-snug mb-6">
-            You Care About Your Country, but what can you do?
+            You care about your country. What comes next?
           </h2>
           <div className="space-y-4 text-lg text-slate">
             <p>
-              National arguments feel endless. Social media rewards outrage. Serious conversations are often reduced to slogans, soundbites, and suspicion.
+              National arguments feel endless. Social media rewards outrage. Serious questions are often reduced to slogans, soundbites, and suspicion.
             </p>
             <p>
-              And even after an inspiring seminar, webinar, Constitution class, or civic event, the momentum can fade quickly.
+              And even after an inspiring seminar, Constitution class, webinar, or civic event, the momentum can fade. You go home encouraged — but without a place to keep learning, ask questions, build relationships, or decide what comes next.
             </p>
             <p className="font-medium text-navy">
-              Freedom Square USA gives that inspiration a year-round home — a place to keep learning, asking questions, building relationships, and taking constructive action.
+              Freedom Square USA gives that momentum a year-round home.
             </p>
           </div>
         </motion.div>
 
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:flex-row gap-4 mb-8">
           {questions.map((question, i) => (
             <motion.div
               key={i}
@@ -47,6 +47,10 @@ export function ProblemSection() {
             </motion.div>
           ))}
         </div>
+
+        <p className="text-center font-serif italic text-lg text-navy">
+          Freedom Square was built for citizens asking questions like these.
+        </p>
       </div>
     </section>
   );
