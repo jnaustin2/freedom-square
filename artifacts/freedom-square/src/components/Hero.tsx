@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { JOIN_URL } from "@/data/siteContent";
 import { Button } from "@/components/ui/button";
-import civicImage from "@assets/civic-town-square.png";
+import heroVideo from "@assets/landing-page-intro-shane_1783660977879.mp4";
 
 export function Hero() {
   return (
@@ -56,9 +56,12 @@ export function Hero() {
             className="relative"
           >
             <div className="aspect-[4/3] shadow-xl border border-[#DDD2BF] overflow-hidden">
-              <img
-                src={civicImage}
-                alt="Citizens gathered in a civic town square with an American flag"
+              <video
+                src={heroVideo}
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-full object-cover object-center"
               />
             </div>
