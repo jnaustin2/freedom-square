@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import communityScreenshot from "@assets/community-screenshot.png";
+import membersScreenshot from "@assets/members.png";
 
 const groups = ["Families", "Churches", "Schools", "Neighborhoods", "Civic groups", "Businesses", "Local organizations"];
 
@@ -44,7 +44,7 @@ export function CommunityBelongingSection() {
             className="border border-[#DDD2BF] shadow-lg overflow-hidden"
           >
             <img
-              src={communityScreenshot}
+              src={membersScreenshot}
               alt="Members connecting inside the Freedom Square USA community"
               className="w-full object-cover object-top block"
             />
