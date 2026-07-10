@@ -63,27 +63,31 @@ export const siteData = {
     },
     {
       question: "What is included in Apprentice membership?",
-      answer: "Apprentice members receive access to live teaching, member discussions, Liberty Library resources, Freedom Forums, event replays when available, prompts and conversation starters, and practical civic confidence resources."
-    },
-    {
-      question: "How does the 2-week free trial work?",
-      answer: "Your Apprentice membership begins with a 2-week free trial. During the trial, you can explore the community, attend available live events, access member resources, and get a feel for the Freedom Square experience.\n\nAfter the trial ends, your membership continues at $49/month unless you cancel before the trial period ends. You can cancel at any time."
+      answer: "Apprentice members receive access to the Weekly Freedom Forum, Guest Speaker Series, The Commons, Liberty Library resources, available event replays, discussion prompts, study resources, and Civic Action guidance."
     },
     {
       question: "Are live events recorded?",
-      answer: "Most events will be available for replay for members who cannot attend live."
+      answer: "Most events will be available for replay for members who cannot attend live. Replay availability may vary by event."
     },
     {
       question: "Who teaches inside Freedom Square?",
-      answer: "Shane Krauser leads regular teaching inside Freedom Square. Members will also hear from guest speakers and other thoughtful voices over time."
+      answer: "Shane Krauser leads regular teaching inside Freedom Square USA. Members also hear from guest speakers and other thoughtful voices who bring valuable experience and perspective to questions of freedom, citizenship, leadership, constitutional principles, and civic responsibility."
     },
     {
       question: "What if I am tired of political arguments?",
-      answer: "That is one reason Freedom Square exists. The community is designed for serious discussion, civil disagreement, learning, responsibility, and constructive action — not personal attacks, contempt, or outrage for its own sake."
+      answer: "That is one reason Freedom Square exists. The community is designed for serious discussion, learning, civil disagreement, personal responsibility, and constructive action. We welcome honest questions and different perspectives. We do not build community around personal attacks, contempt, or outrage for its own sake."
     },
     {
-      question: "Can I cancel my membership?",
-      answer: "Yes. You can cancel at any time."
+      question: "How does the 2-week free trial work?",
+      answer: "You receive access to the Apprentice membership experience during your 2-week free trial. You can explore the community, browse the Liberty Library, participate in discussions, attend available live events, and watch available replays.\n\nAfter the trial, your membership continues at $49 per month unless you cancel."
+    },
+    {
+      question: "Can I cancel anytime?",
+      answer: "Yes. You may cancel your membership at any time."
+    },
+    {
+      question: "What happens after I join?",
+      answer: "Your first stop is the Welcome Center. There, you will be guided through a few simple first steps to help you understand the community, complete your profile, introduce yourself, explore the platform, and find the next live event.\n\nFrom there, you can begin learning, participating, building relationships, and finding your place in the community."
     }
   ]
 };
