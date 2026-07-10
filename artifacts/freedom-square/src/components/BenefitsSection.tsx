@@ -1,32 +1,43 @@
 import { motion } from "framer-motion";
 import { JOIN_URL } from "@/data/siteContent";
 import { Button } from "@/components/ui/button";
-import { Video, BookOpen, Users, Compass } from "lucide-react";
+import { Video, Users, Mic, BookOpen, Compass } from "lucide-react";
 import communityScreenshot from "@assets/community-screenshot.png";
 
 const cards = [
   {
     Icon: Video,
-    title: "Live Teaching",
-    copy: "Join regular live teaching with Shane Krauser focused on America's founding principles, the Constitution, the Declaration of Independence, and the responsibilities of self-government.",
+    title: "Weekly Freedom Forum",
+    tagline: "Learn together.",
+    copy: "Join Shane Krauser and other members for regular live teaching and discussion focused on America's founding principles, the Constitution, the Declaration of Independence, self-government, and the responsibilities of citizenship.",
     accent: "#1E3A5F",
-  },
-  {
-    Icon: BookOpen,
-    title: "The Liberty Library",
-    copy: "Access recorded courses, founding document studies, reading resources, practical guides, and tools you can return to whenever you want to study more deeply.",
-    accent: "#A53A2A",
   },
   {
     Icon: Users,
     title: "The Commons",
-    copy: "Participate in thoughtful member discussions, respond to prompts, ask questions, share reflections, and connect with citizens who care about liberty and civic responsibility.",
+    tagline: "Continue the conversation.",
+    copy: "Learning shouldn't end when the live event does. Ask questions, respond to discussion prompts, share insights, and talk about what's happening in your community with members who understand why these ideas matter.",
     accent: "#A53A2A",
+  },
+  {
+    Icon: Mic,
+    title: "Guest Speaker Series",
+    tagline: "Expand your perspective.",
+    copy: "Hear from guest teachers, civic leaders, authors, organizers, and other thoughtful voices who deepen your understanding and expand your view of how citizens can make a constructive difference.",
+    accent: "#A53A2A",
+  },
+  {
+    Icon: BookOpen,
+    title: "Liberty Library",
+    tagline: "Go deeper anytime.",
+    copy: "Return anytime to recorded teaching, founding-document studies, Constitution resources, study guides, recommended reading, event replays, and practical civic tools.",
+    accent: "#1E3A5F",
   },
   {
     Icon: Compass,
     title: "Civic Action",
-    copy: "Receive simple next steps, local engagement guidance, and resources that help you move from concern to constructive participation in your family, church, school, town, organization, or community.",
+    tagline: "Put principles into practice.",
+    copy: "Freedom matters where people actually live. Explore constructive next steps, local engagement ideas, and opportunities to become more effective in your family, church, school, neighborhood, organization, or community.",
     accent: "#1E3A5F",
   },
 ];
@@ -39,19 +50,19 @@ export function BenefitsSection() {
         {/* Heading + intro */}
         <div className="mb-10 max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-serif text-deepNavy mb-5">
-            What's Inside Freedom Square
+            Your life inside Freedom Square.
           </h2>
-          <p className="text-slate text-lg leading-relaxed mb-3">
-            Freedom Square is more than a library of videos. It is a living membership community with a steady rhythm of teaching, discussion, resources, and practical next steps.
+          <p className="text-navy text-lg font-medium mb-3">
+            A living community for learning, connection, and action.
           </p>
           <p className="text-slate text-lg leading-relaxed">
-            As an Apprentice member, you will have a place to keep learning, ask questions, build relationships, and apply America's founding principles where you live.
+            Freedom Square is more than a collection of videos or occasional online events. It is an ongoing membership experience designed to help you keep learning, participate in meaningful conversations, build relationships, and put principles into practice.
           </p>
         </div>
 
-        {/* 2×2 card grid */}
+        {/* card grid */}
         <div className="grid sm:grid-cols-2 gap-5 mb-14">
-          {cards.map(({ Icon, title, copy, accent }, i) => (
+          {cards.map(({ Icon, title, tagline, copy, accent }, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 20 }}
@@ -68,7 +79,10 @@ export function BenefitsSection() {
                 >
                   <Icon className="w-4 h-4" strokeWidth={1.5} style={{ color: accent }} />
                 </div>
-                <h3 className="font-serif text-lg font-bold text-navy">{title}</h3>
+                <div>
+                  <h3 className="font-serif text-lg font-bold text-navy leading-tight">{title}</h3>
+                  <p className="text-xs uppercase tracking-wide text-slate/60">{tagline}</p>
+                </div>
               </div>
               <p className="text-slate text-base leading-relaxed">{copy}</p>
             </motion.div>
@@ -109,7 +123,7 @@ export function BenefitsSection() {
             Freedom Square gives your concern for liberty a place to grow into understanding, relationships, and wise action.
           </p>
           <Button asChild size="lg" className="shrink-0 bg-mutedRed hover:bg-[#872E23] text-white rounded-none px-8 h-12 text-base font-semibold shadow-md">
-            <a href={JOIN_URL}>Become an Apprentice Member</a>
+            <a href={JOIN_URL}>Start My 2-Week Free Trial</a>
           </Button>
         </div>
 
