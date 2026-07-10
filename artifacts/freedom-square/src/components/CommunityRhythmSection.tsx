@@ -1,30 +1,33 @@
 import { motion } from "framer-motion";
 import { Calendar, Mic, BookOpen, MapPin } from "lucide-react";
+import { JOIN_URL } from "@/data/siteContent";
+import { Button } from "@/components/ui/button";
 
 const blocks = [
   {
     Icon: Calendar,
     label: "Every Week",
     items: [
-      "Monday live teaching with Shane Krauser",
+      "Weekly Freedom Forum",
       "Discussion prompts",
-      "Member conversation in The Commons",
+      "Member conversations in The Commons",
     ],
   },
   {
     Icon: Mic,
-    label: "Twice Monthly",
+    label: "Twice Each Month",
     items: [
-      "Freedom Forums with guest speakers",
-      "New voices, new perspectives",
+      "Guest Speaker Series",
+      "New voices and perspectives",
+      "Member Q&A and discussion",
     ],
   },
   {
     Icon: BookOpen,
     label: "Anytime",
     items: [
-      "Liberty Library resources",
-      "Event replays",
+      "Liberty Library",
+      "Available event replays",
       "Study guides and reference tools",
     ],
   },
@@ -32,9 +35,9 @@ const blocks = [
     Icon: MapPin,
     label: "Ongoing",
     items: [
-      "Civic action steps",
+      "Civic Action ideas",
       "Local engagement guidance",
-      "Application where you live",
+      "Practical application",
     ],
   },
 ];
@@ -52,7 +55,7 @@ export function CommunityRhythmSection() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           {blocks.map(({ Icon, label, items }, i) => (
             <motion.div
               key={i}
@@ -78,6 +81,18 @@ export function CommunityRhythmSection() {
               </ul>
             </motion.div>
           ))}
+        </div>
+
+        <div className="text-center border-t border-[#DDD2BF] pt-8">
+          <p className="font-serif italic text-navy text-lg mb-5">
+            There is always something meaningful to learn, discuss, or do.
+          </p>
+          <Button asChild size="lg" className="bg-mutedRed hover:bg-[#872E23] text-white rounded-none px-8 h-12 text-base font-semibold shadow-md">
+            <a href={JOIN_URL}>Start My 2-Week Free Trial</a>
+          </Button>
+          <p className="text-sm text-slate/70 mt-3">
+            Free for 2 weeks. Then $49/month.
+          </p>
         </div>
       </div>
     </section>
