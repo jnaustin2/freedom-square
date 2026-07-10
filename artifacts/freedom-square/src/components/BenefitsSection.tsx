@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { JOIN_URL } from "@/data/siteContent";
 import { Button } from "@/components/ui/button";
 import { Video, Users, Mic, BookOpen, Compass } from "lucide-react";
-import communityScreenshot from "@assets/community-screenshot.png";
 
 const cards = [
   {
@@ -88,34 +87,6 @@ export function BenefitsSection() {
             </motion.div>
           ))}
         </div>
-
-        {/* Platform Preview */}
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-10"
-        >
-          <p className="text-sm font-sans uppercase tracking-widest text-slate/60 mb-4 text-center">
-            A living community, not just a content library
-          </p>
-          <div className="border border-[#DDD2BF] shadow-lg overflow-hidden">
-            <div className="bg-[#F2E8D6] border-b border-[#DDD2BF] px-4 py-2 flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-[#DDD2BF]"></span>
-              <span className="w-3 h-3 rounded-full bg-[#DDD2BF]"></span>
-              <span className="w-3 h-3 rounded-full bg-[#DDD2BF]"></span>
-              <div className="flex-1 ml-2 bg-white/60 border border-[#DDD2BF] rounded-sm px-3 py-0.5 text-xs text-slate/50 font-sans">
-                freedomsquareusa.com
-              </div>
-            </div>
-            <img
-              src={communityScreenshot}
-              alt="Inside the Freedom Square USA community platform"
-              className="w-full object-cover object-top block"
-            />
-          </div>
-        </motion.div>
 
         {/* Closing line + CTA */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-5 border-t border-[#DDD2BF] pt-8">
