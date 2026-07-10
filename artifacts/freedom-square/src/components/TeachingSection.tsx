@@ -45,7 +45,7 @@ export function TeachingSection() {
             
             <div className="space-y-4 text-lg text-slate">
               <p>
-                Shane Krauser leads regular teaching inside Freedom Square USA. As a trial attorney, constitutional law professor, and nationally recognized teacher of America's founding documents, Shane brings decades of experience helping citizens understand the principles of liberty and apply them to real questions and challenges. His teaching is substantive, energetic, approachable, and practical.
+                Shane Krauser leads regular teaching inside Freedom Square USA. As an experienced trial attorney, constitutional law professor, and nationally recognized teacher of America's founding documents, Shane brings decades of experience helping citizens understand the principles of liberty and apply them to real questions and challenges. His teaching is substantive, energetic, approachable, and practical.
               </p>
               <p>
                 Inside Freedom Square, members have the opportunity to keep learning with Shane throughout the year rather than encountering his teaching only at an occasional seminar or event. Members also hear from guest speakers and other thoughtful voices who bring valuable experience and perspective to questions of freedom, self-government, civic responsibility, constitutional understanding, leadership, and constructive local action.
