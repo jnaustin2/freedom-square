@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const MONTHLY_FOCUS = {
   label: "Monthly Focus",
-  title: "July Focus: The Declaration of Independence",
+  title: "July Focus: The United States Constitution",
   description:
-    "Explore the ideas, principles, history, and continuing responsibilities connected to one of America's most important founding documents. The Monthly Focus helps members go deeper together and creates a shared thread through teaching, discussion, resources, and practical application.",
+    "Explore the structure, principles, history, and continuing responsibilities connected to America's founding charter of self-government. The Monthly Focus helps members go deeper together and creates a shared thread through teaching, discussion, resources, and practical application.",
 };
 
 export function MonthlyFocusSection() {
