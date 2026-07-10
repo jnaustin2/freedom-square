@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { JOIN_URL } from "@/data/siteContent";
 import { Button } from "@/components/ui/button";
-import heroVideo from "@assets/landing-page-intro-shane_1783660977879.mp4";
+import heroVideo from "@assets/hero-intro.mp4";
 
 export function Hero() {
   return (
