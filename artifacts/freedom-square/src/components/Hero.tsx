@@ -23,10 +23,10 @@ export function Hero() {
           >
             <div>
               <span className="text-mutedRed text-sm font-semibold uppercase tracking-[0.2em] mb-3 block">
-                For Americans Who Still Believe
+                Less political arguing. More capable citizens.
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-deepNavy leading-tight">
-                Freedom is worth learning, living, and preserving.
+                Learn what freedom requires—and put it into practice.
               </h1>
             </div>
 
